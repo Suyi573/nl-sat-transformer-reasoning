@@ -58,13 +58,9 @@ python src/pipeline.py calibrate-region \
   --output artifacts/phase_region.json
 ```
 
-## Provenance and attribution
+## Attribution
 
-This is a dissertation implementation and experimental extension, not a claim of authorship of the original NL-SAT benchmark. The controlled S/W/V templates and released vocabulary used by the generator are derived from the public implementation accompanying:
-
-> Tharindu Madusanka, Ian Pratt-Hartmann, and Riza Batista-Navarro. 2024. *Natural Language Satisfiability: Exploring the Problem Distribution and Evaluating Transformer-Based Language Models.* ACL 2024. https://aclanthology.org/2024.acl-long.815/
-
-The source-derived files `src/official_fragments.py` and `src/official_data_construction.py` retain the upstream Apache-2.0 licence and attribution in [NOTICE](NOTICE). The phase-region calibration, dataset curation, experiment configuration, training workflow, and dissertation analysis are the work documented by this repository.
+Parts of `src/official_fragments.py` and `src/official_data_construction.py` are adapted from the publicly released NL-SAT implementation (Madusanka et al., ACL 2024); see [NOTICE](NOTICE) for attribution.
 
 ## Reproducibility notes
 
