@@ -1,0 +1,7 @@
+{
+  "seed": 4107,
+  "solver_timeout_ms": 10000,
+  "hierarchy_probability": 0.5,
+  "vocabulary": "author-released full vocabulary",
+  "phase_band": [0.35, 0.65]
+}

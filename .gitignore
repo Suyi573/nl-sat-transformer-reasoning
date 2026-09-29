@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+
+# Operating-system and editor files
+.DS_Store
+.idea/
+.vscode/
+
+# Local datasets, experiment artifacts, and model outputs
+artifacts/
+runs/
+logs/
+data/
+checkpoints/
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+*.tgz
+*.tar.gz
+
+# Secrets and local configuration
+.env
+.env.*
+*.key
+credentials.json

@@ -1,0 +1,14 @@
+This repository contains files derived from the public implementation at
+https://github.com/iTharindu/nl-sat, accompanying:
+
+Tharindu Madusanka, Ian Pratt-Hartmann, and Riza Batista-Navarro (2024).
+Natural Language Satisfiability: Exploring the Problem Distribution and
+Evaluating Transformer-Based Language Models. ACL 2024.
+
+The following files retain their upstream Apache License, Version 2.0 terms:
+
+- src/data_generation/official_fragments.py
+- src/data_generation/official_data_construction.py
+
+The remaining repository materials are dissertation-specific configuration,
+calibration, dataset curation, training, evaluation, and documentation.
