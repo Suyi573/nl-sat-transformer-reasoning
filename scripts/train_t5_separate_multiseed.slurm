@@ -16,7 +16,7 @@ set -euo pipefail
 
 PROJECT_DIR="${PROJECT_DIR:-$PWD}"
 DATA_ROOT="${DATA_ROOT:-$PROJECT_DIR/data/tagged_fragment_splits}"
-TRAIN_SCRIPT="${TRAIN_SCRIPT:-$PROJECT_DIR/train_deberta.py}"
+TRAIN_SCRIPT="${TRAIN_SCRIPT:-$PROJECT_DIR/scripts/train_deberta.py}"
 FRAGMENTS=(S W V)
 SEEDS=(42 1337 2041)
 FRAGMENT_INDEX=$((SLURM_ARRAY_TASK_ID % 3))
