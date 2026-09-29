@@ -19,7 +19,7 @@ The central result is that theoretical logical complexity alone does not determi
 | DeBERTa-v3-large, joint training | 95.27% +/- 3.22% | 93.23% +/- 2.05% | 90.10% +/- 1.42% | 92.87% +/- 2.22% |
 | T5-large, joint training | 63.58% | 65.85% | 68.73% | 66.06% |
 
-See [results/main_results.md](results/main_results.md) for interpretation and scope.
+See [main_results.md](main_results.md) for interpretation and scope.
 
 ## Repository layout
 
@@ -35,7 +35,7 @@ sample_theories.jsonl        Six generated, labelled example theories
 main_results.md              Concise results and interpretation
 ```
 
-Full datasets, checkpoints, cached model files, and training logs are deliberately excluded. The dataset-generation pipeline can recreate data from the documented configuration; the small files in `examples/` are only for format inspection.
+Full datasets, checkpoints, cached model files, and training logs are deliberately excluded. The dataset-generation pipeline can recreate data from the documented configuration; `sample_theories.jsonl` is only for format inspection.
 
 ## Setup
 
