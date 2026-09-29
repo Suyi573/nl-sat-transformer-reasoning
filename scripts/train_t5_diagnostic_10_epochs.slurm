@@ -15,7 +15,7 @@ set -euo pipefail
 
 PROJECT_DIR="${PROJECT_DIR:-$PWD}"
 DATA_DIR="${DATA_DIR:-$PROJECT_DIR/data/tagged_splits}"
-TRAIN_SCRIPT="${TRAIN_SCRIPT:-$PROJECT_DIR/train_deberta.py}"
+TRAIN_SCRIPT="${TRAIN_SCRIPT:-$PROJECT_DIR/scripts/train_deberta.py}"
 OUTPUT_DIR="$PROJECT_DIR/runs/t5_large_joint_seed42_diagnostic_10ep"
 
 cd "$PROJECT_DIR"
